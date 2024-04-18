@@ -26,6 +26,7 @@
         </nav>
             
         <div class="information">
+            <div class="overlay"></div>
             <img src="image/iphone-7031424_1280.png" class="mobile">
             <div id="circle">
                 <div class ="feature one">
@@ -75,7 +76,21 @@
         var rotateValue = circle.style.transform;
         var rotateSum;
 
-        
+
+        upBtn.onclick = function()
+        {
+            rotateSum = rotateValue + "rotate(-90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue =rotateSum;
+        }
+        downBtn.onclick = function()
+        {
+            rotateSum = rotateValue + "rotate(90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue =rotateSum;
+        }
+
+
     </script>
 </div>
 </body>
