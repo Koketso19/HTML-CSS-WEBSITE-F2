@@ -41,22 +41,24 @@ logo{
 }
  
 .information{
-    width: 1000px;
-    height: 1000px;
+    width: 990px;
+    height: 990px;
     position: absolute;
-    top: 50;
+    top: 50%;
     left: -10;
     transform: translateY(-50%);
 }
 #circle{
-    width: 1000px;
-    height: 1000px;
+    width: 990px;
+    height: 990px;
     position: absolute;
     top: 0;
     left: 0;
     border-radius: 50%;
     transform: rotate(0deg);
     transition: 1s;
+    background: ;
+    
 }
  .feature img{
     width: 70px;
@@ -64,7 +66,7 @@ logo{
  .feature{
     position:absolute;
     display: flex;
-    color: #fff;
+    color;
  }
  .feature div{
     margin-left: 30px;
@@ -74,28 +76,28 @@ logo{
     margin-top: 8px;
  }
  .one{
-    top: 150px;
-    left: 350px;
+    top: 450px;
+    right: 50px;
  }
  .two{
-    top: 150px;
-    left: 350;
+    top: 250px;
+    left: 350px;
     transform: rotate(-90deg);
  }
  .three{
-    bottom: 4590px;
+    bottom: 450px;
     left: 50px;
     transform: rotate(-180deg);
  }
  .four{
-    bottom: 150px;
+    bottom: 250px;
     right: 350px;
     transform: rotate(-270deg);
  }
  .mobile{
     width: 200px ;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 35%;
     transform: translateY(-50%);
     z-index: 1;
@@ -104,7 +106,7 @@ logo{
  .controls{
     position: absolute;
     right: 10%;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50);
     text-align: center;
  }
